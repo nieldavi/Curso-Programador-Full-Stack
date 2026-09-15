@@ -8,7 +8,7 @@
 
 **Repositório Oficial de Aulas, Exercícios e Projetos do Curso de Programador Full Stack**
 
-[Módulos do Curso](#-grade-curricular--módulos) • [Ambiente & Recursos](#-ambiente--recursos-úteis) • [Como Usar](#-como-utilizar-este-repositório) • [Projeto Integrador](#-projeto-integrador)
+[Unidades Curriculares](#-unidades-curriculares-ucs) • [Ambiente & Recursos](#-ambiente--recursos-úteis) • [Como Usar](#-como-utilizar-este-repositório) • [Projeto Integrador](#-projeto-integrador)
 
 </div>
 
@@ -16,34 +16,31 @@
 
 ## 📌 Sobre o Curso
 
-O curso de **Programador Full Stack do Senac** tem como objetivo formar profissionais capacitados para atuar no desenvolvimento completo de aplicações web modernas, cobrindo desde a interface com o usuário (**Front-end**) até a regra de negócio, servidores e bancos de dados (**Back-end**), além das melhores práticas de versionamento de código e metodologia ágil.
-
-### 🚀 O que você vai aprender:
-- **Fundamentos Web**: HTML5 semântico, CSS3 moderno (Flexbox, Grid, Responsividade) e Git/GitHub.
-- **Lógica & JavaScript**: Programação orientada a objetos, manipulação da DOM, ES6+ e assincronismo (Promises/Async-Await).
-- **Front-end Avançado**: Construção de SPAs com **React.js**, gestão de estado, hooks e estilização.
-- **Back-end & APIs**: Criação de servidores RESTful com **Node.js** e **Express**, autenticação (JWT) e segurança.
-- **Banco de Dados**: Modelagem e manipulação de dados relacionais (**PostgreSQL / MySQL**) com ORM (**Prisma / Knex**) e NoSQL.
-- **DevOps Básicos & Deploy**: Deploy de aplicações front-end (Vercel/Netlify) e back-end (Render/Railway).
+O curso de **Programador Full Stack do Senac** prepara o estudante para desenvolver aplicações web completas, integrando o planejamento de requisitos, prototipagem, construção de interfaces modernas (Front-end), regras de negócio no servidor (Back-end), persistência em bancos de dados, serviços web e publicação em ambientes de nuvem.
 
 ---
 
-## 📚 Grade Curricular & Módulos
+## 📚 Unidades Curriculares (UCs)
 
-| Módulo | Conteúdo Principal | Diretório |
-| :--- | :--- | :--- |
-| **01. Fundamentos Web** | HTML5, CSS3, Layouts Responsivos, Git & GitHub | [`modulos/modulo-01-fundamentos-web`](./modulos/modulo-01-fundamentos-web/) |
-| **02. JavaScript & ES6+** | Lógica de Programação, DOM, Eventos, Async/Await | [`modulos/modulo-02-javascript-es6`](./modulos/modulo-02-javascript-es6/) |
-| **03. Front-end com React** | React.js, Componentização, Hooks, Tailwind/CSS Modules | [`modulos/modulo-03-front-end-react`](./modulos/modulo-03-front-end-react/) |
-| **04. Back-end com Node.js** | Node.js, Express, Arquitetura REST, Middlewares, JWT | [`modulos/modulo-04-back-end-node`](./modulos/modulo-04-back-end-node/) |
-| **05. Banco de Dados** | SQL, PostgreSQL/MySQL, Modelagem ER, ORM | [`modulos/modulo-05-banco-de-dados`](./modulos/modulo-05-banco-de-dados/) |
-| **06. Projeto Integrador** | Aplicação Full Stack Completa (Front + Back + DB + Deploy) | [`modulos/modulo-06-projeto-integrador`](./modulos/modulo-06-projeto-integrador/) |
+| UC | Unidade Curricular | Descrição Resumida | Diretório |
+| :---: | :--- | :--- | :--- |
+| **UC1** | **Elaborar projetos de aplicações para web** | Requisitos, arquitetura, prototipagem no Figma e metodologias ágeis | [`unidades-curriculares/uc1-elaborar-projetos-web`](./unidades-curriculares/uc1-elaborar-projetos-web/) |
+| **UC2** | **Construir aplicações front-end** | HTML5 semântico, CSS3, JavaScript ES6+ e desenvolvimento com React.js | [`unidades-curriculares/uc2-construir-aplicacoes-frontend`](./unidades-curriculares/uc2-construir-aplicacoes-frontend/) |
+| **UC3** | **Publicar aplicações web** | Versionamento com Git/GitHub, CI/CD, variáveis de ambiente e deploy em Nuvem | [`unidades-curriculares/uc3-publicar-aplicacoes-web`](./unidades-curriculares/uc3-publicar-aplicacoes-web/) |
+| **UC4** | **Construir aplicações Back-End** | Node.js, Express, REST APIs, middlewares, validações e autenticação JWT | [`unidades-curriculares/uc4-construir-aplicacoes-backend`](./unidades-curriculares/uc4-construir-aplicacoes-backend/) |
+| **UC5** | **Implementar banco de dados para web** | Modelagem ER, SQL (PostgreSQL/MySQL), ORM (Prisma/Knex) e migrations | [`unidades-curriculares/uc5-implementar-banco-de-dados`](./unidades-curriculares/uc5-implementar-banco-de-dados/) |
+| **UC6** | **Desenvolver serviços web** | Web Services RESTful, consumo de APIs externas, Swagger e integração | [`unidades-curriculares/uc6-desenvolver-servicos-web`](./unidades-curriculares/uc6-desenvolver-servicos-web/) |
+| **UC7** | **Projeto Integrador Programador Full Stack** | Solução prática completa unindo todas as UCs em uma aplicação real | [`unidades-curriculares/uc7-projeto-integrador`](./unidades-curriculares/uc7-projeto-integrador/) |
 
 ---
 
 ## 🛠️ Stacks & Tecnologias
 
 <div align="left">
+
+**Planejamento & Prototipagem:**
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Trello](https://img.shields.io/badge/Trello-0052CC?style=flat-square&logo=trello&logoColor=white)
 
 **Front-end:**
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -58,11 +55,11 @@ O curso de **Programador Full Stack do Senac** tem como objetivo formar profissi
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 
-**Ferramentas & Versionamento:**
+**DevOps, Serviços & Ferramentas:**
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
 
 </div>
 
@@ -70,11 +67,11 @@ O curso de **Programador Full Stack do Senac** tem como objetivo formar profissi
 
 ## 🛠️ Ambiente & Recursos Úteis
 
-Antes de começar as aulas práticas, prepare o seu ambiente de desenvolvimento consultando os guias abaixo:
+Antes de iniciar as aulas práticas, consulte os guias na pasta de recursos:
 
-- 📖 [Guia de Configuração do Ambiente](./recursos/instalacao-ambiente.md) (Instalação de Node.js, Git, VS Code e extensões).
-- 🐙 [Guia de Git & Boas Práticas de Commits](./recursos/boas-praticas-git.md) (Como clonar, enviar exercícios e usar branchs).
-- 📝 [Pasta de Atividades e Desafios](./atividades/) (Exercícios práticos propostos durante as aulas).
+- 📖 [Guia de Configuração do Ambiente](./recursos/instalacao-ambiente.md) (Instalação de Node.js, Git, VS Code e extensoes).
+- 🐙 [Guia de Git & Boas Práticas de Commits](./recursos/boas-praticas-git.md) (Workflow de trabalho e commits semânticos).
+- 📝 [Pasta de Atividades e Desafios](./atividades/) (Instruções para entrega de exercícios).
 
 ---
 
@@ -90,24 +87,20 @@ git clone https://github.com/SEU_USUARIO/curso-programador-full-stack-senac.git
 cd curso-programador-full-stack-senac
 ```
 
-### 3. Navegar pelos módulos:
-Cada módulo possui sua própria pasta com exemplos práticos, códigos das aulas e explicações.
-
 ---
 
-## 🏆 Projeto Integrador
+## 🏆 UC7 - Projeto Integrador
 
-O **Projeto Integrador** é a atividade prática final onde cada aluno (ou grupo) desenvolverá uma aplicação Full Stack real, aplicando todos os conceitos aprendidos no curso.
+O **Projeto Integrador (UC7)** é a atividade prática final onde cada aluno/equipe desenvolve uma aplicação Full Stack real, aplicando os conhecimentos desenvolvidos nas UCs 1 a 6.
 
-- **Entrega esperada**: Front-end responsivo integrado a uma API REST com persistência de dados em banco de dados e deploy realizado.
-- Detalhes e especificações estão disponíveis na pasta [`modulos/modulo-06-projeto-integrador`](./modulos/modulo-06-projeto-integrador/).
+- Detalhes e requisitos estão disponíveis na pasta [`unidades-curriculares/uc7-projeto-integrador`](./unidades-curriculares/uc7-projeto-integrador/).
 
 ---
 
 ## 👨‍🏫 Instrutor & Suporte
 
 - **Professor**: Nieldson (Prof. TI Senac)
-- **Dúvidas**: Utilize a aba de **Discussions** ou abra uma **Issue** no repositório GitHub para dúvidas sobre conteúdos ou exercícios.
+- **Dúvidas**: Utilize a aba de **Discussions** ou abra uma **Issue** no repositório GitHub.
 
 <div align="center">
   <sub>Desenvolvido com 💙 para os alunos do Senac.</sub>
