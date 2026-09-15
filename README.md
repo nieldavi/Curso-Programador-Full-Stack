@@ -99,7 +99,7 @@ O **Projeto Integrador (UC7)** é a atividade prática final onde cada aluno/equ
 
 ## 👨‍🏫 Instrutor & Suporte
 
-- **Professor**: Nieldson (Prof. TI Senac)
+- **Professor**: Francisco Daniel Davi (Prof. TI Senac)
 - **Dúvidas**: Utilize a aba de **Discussions** ou abra uma **Issue** no repositório GitHub.
 
 <div align="center">
