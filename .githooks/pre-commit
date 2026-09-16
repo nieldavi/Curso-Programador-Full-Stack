@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/compress-pdfs.ps1 -Staged
