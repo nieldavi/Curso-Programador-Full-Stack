@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Informações sobre ferramentas de IA para desenvolvimento, revisão de código e boas práticas, com fontes oficiais.">
+  <title>Código & IA | Inteligência artificial no desenvolvimento</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="portal">
+    <!-- Cabeçalho da página: apresenta o tema principal. -->
+    <header id="inicio" data-tag="header" tabindex="0">
+      <h1>CÓDIGO & IA</h1>
+      <p>Ferramentas, conceitos e boas práticas para quem desenvolve software</p>
+    </header>
+
+    <!-- Navegação: reúne os links para as áreas da página. -->
+    <nav aria-label="Navegação principal" data-tag="nav" tabindex="0">
+      <a href="#inicio">Início</a><span aria-hidden="true">|</span>
+      <a href="#conteudo">Ferramentas</a><span aria-hidden="true">|</span>
+      <a href="#boas-praticas">Boas práticas</a>
+    </nav>
+
+    <!-- Conteúdo principal e único desta página. -->
+    <main id="conteudo" data-tag="main" tabindex="0">
+      <section aria-labelledby="titulo-tema" data-tag="section" tabindex="0">
+        <p class="editoria">DESENVOLVIMENTO · INTELIGÊNCIA ARTIFICIAL</p>
+        <h2 id="titulo-tema">Do autocomplete aos agentes: como a IA participa da programação</h2>
+        <p>Assistentes de código sugerem trechos no editor. Agentes podem trabalhar com arquivos e executar tarefas no projeto. Conheça aplicações reais dessas ferramentas e os cuidados ao usar código gerado.</p>
+        <p class="metadados">Guia introdutório · Fontes consultadas em <time datetime="2026-10-18">18 de outubro de 2026</time></p>
+
+        <article data-tag="article" tabindex="0">
+          <p class="editoria">NO EDITOR</p>
+          <h3>GitHub Copilot: sugestões enquanto você escreve</h3>
+          <p>O GitHub Copilot oferece sugestões de código em editores compatíveis. Ele utiliza o contexto disponível, como o código ao redor do cursor, para propor a continuação de uma linha ou novos blocos. O desenvolvedor pode aceitar, modificar ou descartar a sugestão.</p>
+          <p>Entre os usos documentados estão tarefas repetitivas e sugestões de testes unitários. Os testes gerados também precisam de revisão: eles podem deixar cenários importantes sem cobertura.</p>
+          <p class="fonte">Fonte: <a href="https://docs.github.com/en/copilot/responsible-use/inline-suggestions">GitHub Docs — sugestões de código e suas limitações</a></p>
+        </article>
+
+        <article data-tag="article" tabindex="0">
+          <p class="editoria">NO PROJETO</p>
+          <h3>Claude Code: um agente para tarefas de desenvolvimento</h3>
+          <p>O Claude Code, da Anthropic, é uma ferramenta de programação com IA que pode ler uma base de código, editar arquivos e executar comandos. A documentação apresenta usos como investigar erros, implementar funcionalidades e automatizar tarefas de desenvolvimento.</p>
+          <p>Esse tipo de agente vai além de sugerir a próxima linha: pode realizar várias etapas de uma tarefa usando as ferramentas e permissões disponíveis no ambiente.</p>
+          <p class="fonte">Fonte: <a href="https://code.claude.com/docs/en/overview">Anthropic — visão geral do Claude Code</a></p>
+        </article>
+
+        <article data-tag="article" tabindex="0">
+          <p class="editoria">NA REVISÃO</p>
+          <h3>Uma primeira leitura das mudanças no código</h3>
+          <p>O recurso de revisão do GitHub Copilot analisa alterações e oferece comentários com sugestões. Ele pode ser usado em pull requests, que reúnem mudanças propostas para um repositório, ajudando a iniciar a revisão antes da integração do código.</p>
+          <p class="fonte">Fonte: <a href="https://github.com/features/copilot/code-review">GitHub — Copilot Code Review</a></p>
+        </article>
+      </section>
+
+      <section id="boas-praticas" aria-labelledby="titulo-praticas" data-tag="section" tabindex="0">
+        <h2 id="titulo-praticas">Código sugerido também precisa ser testado</h2>
+        <p>A documentação do GitHub alerta que sugestões podem conter erros de sintaxe, falhas de lógica ou vulnerabilidades. Uma resposta que parece correta ainda pode não atender à intenção do projeto.</p>
+        <ul>
+          <li><strong>Leia a alteração:</strong> confira se o comportamento corresponde ao requisito.</li>
+          <li><strong>Execute testes:</strong> verifique casos comuns, entradas inválidas e condições de limite.</li>
+          <li><strong>Revise o contexto:</strong> confirme a compatibilidade com a arquitetura e as bibliotecas do projeto.</li>
+        </ul>
+        <p class="fonte">Referência: <a href="https://docs.github.com/en/copilot/responsible-use/inline-suggestions#7-limitations">GitHub Docs — limitações e revisão de sugestões</a></p>
+        <figure data-tag="figure" tabindex="0">
+          <div class="fluxo" aria-label="Etapas: descrever a tarefa, revisar a sugestão e testar o resultado">
+            <span>Descrever a tarefa</span><b aria-hidden="true">→</b>
+            <span>Revisar a sugestão</span><b aria-hidden="true">→</b>
+            <span>Testar o resultado</span>
+          </div>
+          <figcaption data-tag="figcaption" tabindex="0">Fluxo de trabalho sugerido para avaliar uma alteração produzida com IA.</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <!-- Rodapé: informações sobre a página. -->
+    <footer id="sobre" data-tag="footer" tabindex="0">
+      <p>Código & IA — 2026 · Informação para quem aprende e desenvolve</p>
+      <p class="dica">Modo educativo: passe o mouse, toque ou use Tab para identificar as tags semânticas.</p>
+    </footer>
+  </div>
+
+  <!-- O painel fica fora dos elementos inspecionados para evitar interferências. -->
+  <div id="inspector" class="inspector" role="status" aria-live="polite" aria-atomic="true">
+    <code id="tag-atual">&lt;html&gt;</code>
+    <span id="explicacao">Explore a página para conhecer sua estrutura semântica.</span>
+  </div>
+</body>
+</html>

@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portal de Tecnologia</title>
+
+    <style>
+
+        /*
+        ===================================
+        ESTILOS GERAIS DA PÁGINA
+        ===================================
+
+        body {
+            background-color: #eaf2ff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: #333333;
+        }
+
+
+        ===================================
+        CABEÇALHO
+        ===================================
+
+        header {
+            background-color: #203a70;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+
+        ===================================
+        MENU DE NAVEGAÇÃO
+        ===================================
+
+        nav {
+            background-color: #3459a0;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+
+        ===================================
+        CONTEÚDO PRINCIPAL
+        ===================================
+
+        main {
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #cccccc;
+        }
+
+        h2 {
+            color: #203a70;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+
+        ===================================
+        VÍDEO E ÁUDIO
+        ===================================
+
+        video {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        audio {
+            width: 100%;
+        }
+
+        iframe {
+            max-width: 100%;
+            border: none;
+            border-radius: 10px;
+        }
+
+
+        ===================================
+        DIV DE DESTAQUE
+        ===================================
+
+        .destaque {
+            background-color: #fff3cd;
+            border-left: 5px solid orange;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+
+        ===================================
+        RODAPÉ
+        ===================================
+
+        footer {
+            background-color: #203a70;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        */
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu Portal de Tecnologia</h1>
+        <p>Aprendendo desenvolvimento Front-End</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#musica">Música</a>
+        <a href="#video">Vídeo</a>
+        <a href="#conteudo">Conteúdo</a>
+    </nav>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Bem-vindo ao nosso portal!</h2>
+
+            <p>
+                Esta página foi construída utilizando
+                HTML semântico.
+            </p>
+
+            <p>
+                Agora vamos descobrir como o CSS
+                pode transformar sua aparência.
+            </p>
+
+            <div class="destaque">
+                <h3>Você sabia?</h3>
+                <p>
+                    HTML organiza o conteúdo,
+                    enquanto CSS define sua aparência.
+                </p>
+            </div>
+        </section>
+
+        <section id="musica">
+            <h2>Minha Música</h2>
+
+            <p>Ouça o áudio abaixo:</p>
+
+            <audio controls>
+                <source src="musica.mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+        </section>
+
+        <section id="video">
+            <h2>Meu Vídeo</h2>
+
+            <p>Assista ao vídeo abaixo:</p>
+
+            <video controls width="500">
+                <source src="video.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+        </section>
+
+        <section id="conteudo">
+            <h2>Conteúdo Externo</h2>
+
+            <p>Exemplo de utilização do iframe:</p>
+
+            <iframe
+                src="https://example.com"
+                title="Página de exemplo"
+                width="500"
+                height="300">
+            </iframe>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido pela turma Full Stack - 2026</p>
+    </footer>
+
+</body>
+</html>
